@@ -1,0 +1,111 @@
+body{
+    background-image: url(image/cover.jpg);
+    background-size: cover;
+    font-family: 'roboto';
+    color: #000;
+}
+header ul{
+  display: flex;
+  color:white;
+  text-decoration: none;
+}
+header ul li {
+  display: flex;
+  color:white;
+  justify-content: flex-end;
+  text-decoration: none;
+  padding-right:30px;
+  padding-top:30px;
+}
+header ul li a{
+  display: flex;
+  color:white;
+  text-decoration: none;
+
+}
+
+h2{
+  color: white;
+  font-weight: bold;
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+}
+.table{
+  border-collapse: collapse;
+  align-content: center;
+}
+
+table th th , table tr td{
+    padding: 10px 20px	;
+    background-color: #89bbff;
+    border: 1px dashed #48D1CC;
+    color: black;
+    align-content: center;
+}
+table th th , table tr th{
+    padding: 10px 20px	;
+    background-color: #160097;
+    color: white;
+    align-content: center;
+}
+
+button[type=submit] {
+    background-color:#48D1CC;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'roboto';
+    display : inline-block;
+  }
+h1{
+    color: black;
+    text-align: center;
+}
+a:hover {
+    background-color:	#87CEFA;
+  }
+
+button{
+    background-color:#48D1CC;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'roboto';
+    margin-right: 30px;
+    border-radius: 3px;
+    padding:10px;
+  }
+  button:hover {
+    background-color:	#87CEFA;
+  }
+
+.kotak{
+  width: 400px;
+	background: #160097;
+	margin: 40px auto;
+  padding: 20px 20px;
+  border-radius: 3px;
+  color:white;
+}
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+  margin-bottom: 20px;
+}
+.submit{
+  background-color:#48D1CC;
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'roboto';
+  width: 100%;
+  border-radius: 3px;
+}
+.submit:hover {
+  background-color:	#87CEFA;
+}
